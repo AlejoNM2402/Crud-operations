@@ -98,6 +98,7 @@ body{
     border: solid 2px var(--color-6);
     outline: none;
     cursor: text;
+    padding-left: 7px;
     &::placeholder{
         color: var(--color-6);  
         padding-left: 5px;
@@ -128,6 +129,7 @@ body{
     border: solid 2px var(--color-6);
     outline: none;
     cursor: text;
+    padding-left: 7px;
     &::placeholder{
         color: var(--color-6);
         padding-left: 5px;

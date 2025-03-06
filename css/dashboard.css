@@ -1,0 +1,70 @@
+@import url(/css/variable.css);
+
+body{
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto;
+    /* border: solid blue 2px; */
+}
+
+.v_banner{
+    /* border: solid black 1px; */
+    height: 100vh;
+    width: 270px;
+    background-color: var(--color-7);
+
+}
+/* TITLE */
+
+.c1{
+    display: flex;
+    flex-direction: row;
+    justify-self: center;
+    gap: 5px;
+    /* border: solid green 1px; */
+
+    & h1{
+        font-size: 20px;
+        font-family: "mBold";
+    }
+
+    & img{
+        height: 28.75px;
+        align-self: center;
+    }
+}
+
+/* PROFILE */
+
+.c2{
+    justify-self: center;
+    justify-content: center;
+    text-align: center;
+    padding-top: 50px;
+
+    & h2{
+        font-family: "mBold";
+        font-size: 17px;
+    }
+
+    & p{
+        font-family: "monM";
+        font-size: 14px;
+        color: var(--color-3);
+    }
+}
+
+.profile{
+    justify-self: center;
+    width: 125px;
+    height: 125px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+button{
+    width: 193px;
+    border-style: none;
+    align-items: center;
+}
