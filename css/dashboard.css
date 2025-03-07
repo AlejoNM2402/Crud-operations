@@ -63,8 +63,106 @@ body{
     margin-bottom: 8px;
 }
 
-button{
+/* BUTTONS */
+.c3{
+    margin-top: 84px;
+    display: flex;
+    flex-direction: column;
+    gap: 28px;
+}
+
+.button{
     width: 193px;
+    height: 41px;
     border-style: none;
     align-items: center;
+    font-family: "monM";
+    font-size: 14px;
+    border-radius: 4px;
+    background-color: var(--color-7);
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--color-3);
+    }
+    &:active {
+        transform: scale(0.99);
+        background-color: #91670d;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.2);
+    }
+   
+}
+
+.b1{
+    display: flex;
+    gap: 19px;
+    /* justify-self: center;
+    justify-content: center; */
+    & img{
+        margin-left: 41px;
+    }
+}
+
+.b2{
+    display: flex;
+    gap: 19px;
+    /* justify-self: center;
+    justify-content: center; */
+    & img{
+        margin-left: 41px;
+    }
+    
+}
+.b3{
+    display: flex;
+    gap: 15px;
+    /* justify-self: center;
+    justify-content: center; */
+    & img{
+        margin-left: 41px;
+    }
+}
+.b4{
+    display: flex;
+    gap: 17px;
+    /* justify-self: center;
+    justify-content: center; */
+    & img{
+        margin-left: 41px;
+    }
+    
+}
+.b5{
+    display: flex;
+    gap: 18px;
+    /* justify-self: center;
+    justify-content: center; */
+    & img{
+        margin-left: 41px;
+    }
+}
+.b6{
+    display: flex;
+    gap: 17px;
+    /* justify-self: center;
+    justify-content: center; */
+    & img{
+        margin-left: 41px;
+    }
+}
+
+/* LOGO UT */
+
+.c4{
+    margin-top: 148px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    gap: 23px;
+}
+
+.c4 p{
+    font-family: "monM";
+    font-size: 14;
+    color: black;
 }
