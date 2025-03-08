@@ -1,5 +1,12 @@
 @import url(/css/variable.css);
 
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
 body{
     display: grid;
     grid-template-columns: auto auto;
@@ -9,7 +16,7 @@ body{
 
 .v_banner{
     /* border: solid black 1px; */
-    height: 100vh;
+    height: 1000px;
     width: 270px;
     background-color: var(--color-7);
 
@@ -17,6 +24,7 @@ body{
 /* TITLE */
 
 .c1{
+    padding-top: 12px;
     display: flex;
     flex-direction: row;
     justify-self: center;
@@ -65,10 +73,10 @@ body{
 
 /* BUTTONS */
 .c3{
-    margin-top: 84px;
-    display: flex;
-    flex-direction: column;
-    gap: 28px;
+    padding-top: 40%;
+    display: grid;
+    grid-template-rows: repeat(6, 1fr);
+    gap: 20px;
 }
 
 .button{
@@ -154,7 +162,8 @@ body{
 /* LOGO UT */
 
 .c4{
-    margin-top: 148px;
+    padding-top: 100%;
+    justify-self: end;
     display: flex;
     justify-self: center;
     align-items: center;
@@ -166,3 +175,4 @@ body{
     font-size: 14;
     color: black;
 }
+
