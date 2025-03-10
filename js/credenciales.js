@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const passwordInput = document.querySelector('.password input');
     const submitButton = document.querySelector('button[type="submit"]');
     
-    // Añadir elemento para mensaje de error
+    // Elementos para mensajes de error
     const emailContainer = document.querySelector('.email');
     const errorMessage = document.createElement('span');
     errorMessage.style.color = '#ff0000';
@@ -13,7 +13,7 @@ document.addEventListener('DOMContentLoaded', function() {
     errorMessage.textContent = 'Por favor, ingrese un email válido';
     emailContainer.appendChild(errorMessage);
     
-    // Función para validar email
+    // Validación del email
     function validateEmail(email) {
         const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
         return emailRegex.test(email);

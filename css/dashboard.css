@@ -98,7 +98,6 @@ body{
         background-color: #91670d;
         box-shadow: 0 2px 4px rgba(0,0,0,0.2);
     }
-   
 }
 
 .b1{
@@ -167,12 +166,21 @@ body{
     display: flex;
     justify-self: center;
     align-items: center;
-    gap: 23px;
+    gap: 15px;
 }
 
-.c4 p{
+.c4 a{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+    justify-content: center;
+    align-content: center;
     font-family: "monM";
-    font-size: 14;
+    font-size: 12;
     color: black;
+    width: 100px;
+    text-align: left;
+    z-index: 1;
+    text-decoration: none;
 }
 
